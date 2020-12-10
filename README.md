@@ -10,7 +10,7 @@ My contributions to [#MakeoverMonday](https://www.makeovermonday.co.uk/), a week
 
 ## 2020, Week 48: The success of Operation Fistula’s Pilot Program 
 [Interactive version](https://pedrodrocha.com/makeovermonday/Week48/operationfistula)
-![Gráfico](2020-11-30_Operation-Fistula/plot2.png)  
+![Gráfico](2020-11-30_Operation-Fistula/plot3.png)  
 
 
 
