@@ -1,0 +1,639 @@
+patient_id,country,age,patient_symptoms,years_leaking,outcome_of_surgery,years_lost,years_gained,surgery_cost_usd,x,y
+1,Malawi,36,Leaking urine,6,Continent,2.052,10.45494,190,10,10
+3,Malawi,30,Leaking urine,0,Continent,0,12.50694,190,10,30
+4,Malawi,26,Leaking urine,0,Continent,0,13.87494,190,10,50
+5,Malawi,60,Leaking urine,0,Continent,0,2.24694,190,10,70
+6,Malawi,48,Leaking urine,0,Continent,0,6.35094,190,10,90
+7,Malawi,27,Leaking urine,0,Continent,0,13.53294,190,10,110
+8,Malawi,32,Leaking urine,0,Continent,0,11.82294,190,10,130
+9,Malawi,21,Leaking urine,3,Continent,1.026,15.58494,190,10,150
+11,Zambia,16,Leaking urine,0,Continent,0,17.17524,190,10,170
+13,Zambia,28,Leaking urine,11,Continent,3.762,13.07124,190,10,190
+16,Zambia,18,Leaking urine,1,Continent,0.342,16.49124,190,10,210
+18,Zambia,17,Leaking urine,0,Continent,0,16.83324,190,10,230
+22,Zambia,18,Leaking urine,1,Continent,0.342,16.49124,190,10,250
+23,Zambia,19,Leaking urine,0,Continent,0,16.14924,190,10,270
+25,Zambia,33,Leaking urine,9,Continent,3.078,11.36124,190,10,290
+29,Zambia,34,Leaking urine,11,Continent,3.762,11.01924,190,10,310
+30,Zambia,26,Leaking urine,8,Continent,2.736,13.75524,190,10,330
+34,Zambia,15,Leaking urine,0,Continent,0,17.51724,190,10,350
+35,Zambia,20,Leaking urine,1,Continent,0.342,15.80724,190,10,370
+36,Zambia,17,Leaking urine,0,Continent,0,16.83324,190,10,390
+38,Zambia,20,Leaking urine,3,Continent,1.026,15.80724,190,25,10
+41,Malawi,48,Leaking urine,0,Continent,0,6.35094,190,25,30
+42,Malawi,35,Leaking urine,16,Continent,5.472,10.79694,190,25,50
+43,Malawi,32,Leaking urine,5,Continent,1.71,11.82294,190,25,70
+44,Malawi,41,Leaking urine,0,Continent,0,8.74494,190,25,90
+45,Malawi,31,Leaking urine,0,Continent,0,12.16494,190,25,110
+46,Malawi,29,Leaking urine,0,Continent,0,12.84894,190,25,130
+47,Malawi,31,Leaking urine,0,Continent,0,12.16494,190,25,150
+48,Malawi,31,Leaking urine,0,Continent,0,12.16494,190,25,170
+49,Malawi,24,Leaking urine,4,Continent,1.368,14.55894,190,25,190
+50,Malawi,28,Leaking urine,4,Continent,1.368,13.19094,190,25,210
+52,Malawi,19,Leaking urine,5,Continent,1.71,16.26894,190,25,230
+53,Malawi,25,Leaking urine,6,Continent,2.052,14.21694,190,25,250
+54,Malawi,50,Leaking urine,9,Incontinent,3.078,0,190,25,270
+55,Malawi,33,Leaking urine,13,Continent,4.446,11.48094,190,25,290
+58,Malawi,19,Leaking urine,1,Incontinent,0.342,0,190,25,310
+66,Malawi,26,Leaking urine,0,Continent,0,13.87494,190,25,330
+67,Malawi,26,Leaking urine,2,Continent,0.684,13.87494,190,25,350
+68,Malawi,19,Leaking urine,1,Incontinent,0.342,0,190,25,370
+85,Malawi,49,Leaking urine,14,Continent,4.788,6.00894,190,25,390
+86,Malawi,33,Leaking urine,1,Continent,0.342,11.48094,190,40,10
+88,Malawi,17,Leaking urine and feces,1,Incontinent,0.501,0,190,40,30
+91,Malawi,18,Leaking urine,1,Continent,0.342,16.61094,190,40,50
+92,Malawi,24,Leaking urine,0,Continent,0,14.55894,190,40,70
+97,Malawi,46,Leaking urine,0,Continent,0,7.03494,190,40,90
+98,Malawi,32,Leaking urine,0,Continent,0,11.82294,190,40,110
+99,Malawi,30,Leaking urine,0,Continent,0,12.50694,190,40,130
+100,Malawi,36,Leaking urine,0,Continent,0,10.45494,190,40,150
+101,Malawi,30,Leaking urine,2,Continent,0.684,12.50694,190,40,170
+103,Malawi,27,Leaking urine,0,Continent,0,13.53294,190,40,190
+104,Malawi,28,Leaking feces,0,Continent,0,19.32357,190,40,210
+105,Malawi,22,Leaking urine,2,Continent,0.684,15.24294,190,40,230
+106,Malawi,59,Leaking urine,39,Continent,13.338,2.58894,190,40,250
+107,Malawi,28,Leaking urine,0,Continent,0,13.19094,190,40,270
+108,Malawi,23,Leaking feces,0,Continent,0,21.82857,190,40,290
+109,Malawi,23,Leaking urine,7,Continent,2.394,14.90094,190,40,310
+110,Malawi,28,Leaking feces,0,Continent,0,19.32357,190,40,330
+111,Malawi,17,Leaking urine,1,Continent,0.342,16.95294,190,40,350
+112,Malawi,33,Leaking feces,0,Continent,0,16.81857,190,40,370
+113,Malawi,21,Leaking urine,0,Continent,0,15.58494,190,40,390
+115,Malawi,37,Leaking urine,1,Continent,0.342,10.11294,190,55,10
+116,Malawi,16,Leaking urine,0,Continent,0,17.29494,190,55,30
+117,Malawi,25,Leaking feces,1,Continent,0.501,20.82657,190,55,50
+118,Malawi,60,Leaking urine,20,Continent,6.84,2.24694,190,55,70
+119,Malawi,18,Leaking urine,0,Continent,0,16.61094,190,55,90
+120,Malawi,65,Leaking urine,25,Continent,8.55,0.536939999999998,190,55,110
+121,Malawi,16,Leaking urine,1,Continent,0.342,17.29494,190,55,130
+122,Malawi,18,Leaking urine,0,Continent,0,16.61094,190,55,150
+123,Malawi,30,Leaking urine,12,Continent,4.104,12.50694,190,55,170
+124,Malawi,27,Leaking urine,3,Continent,1.026,13.53294,190,55,190
+125,Malawi,21,Leaking urine,0,Continent,0,15.58494,190,55,210
+127,Malawi,33,Leaking urine,3,Continent,1.026,11.48094,190,55,230
+128,Malawi,30,Leaking urine,0,Continent,0,12.50694,190,55,250
+129,Malawi,19,Leaking urine,0,Continent,0,16.26894,190,55,270
+130,Malawi,26,Leaking urine,4,Continent,1.368,13.87494,190,55,290
+131,Malawi,22,Leaking urine,6,Continent,2.052,15.24294,190,55,310
+133,Malawi,30,Leaking urine,1,Continent,0.342,12.50694,190,55,330
+134,Malawi,18,Leaking urine,1,Incontinent,0.342,0,190,55,350
+135,Malawi,35,Leaking urine,10,Continent,3.42,10.79694,190,55,370
+136,Malawi,20,Leaking urine,0,Continent,0,15.92694,190,55,390
+137,Malawi,42,Leaking urine,9,Continent,3.078,8.40294,190,70,10
+138,Malawi,20,Leaking urine,3,Continent,1.026,15.92694,190,70,30
+139,Malawi,23,Leaking urine,0,Continent,0,14.90094,190,70,50
+140,Malawi,32,Leaking urine,3,Continent,1.026,11.82294,190,70,70
+141,Malawi,33,Leaking feces,11,Continent,5.511,16.81857,190,70,90
+142,Madagascar,18,Leaking urine,2,Continent,0.684,17.1342,190,70,110
+143,Madagascar,25,Leaking urine,2,Continent,0.684,14.7402,190,70,130
+144,Madagascar,55,Leaking urine,17,Continent,5.814,4.4802,190,70,150
+145,Madagascar,41,Leaking urine,14,Continent,4.788,9.2682,190,70,170
+146,Madagascar,23,Leaking urine,0,Continent,0,15.4242,190,70,190
+147,Madagascar,23,Leaking urine,4,Continent,1.368,15.4242,190,70,210
+148,Madagascar,19,Leaking urine,3,Continent,1.026,16.7922,190,70,230
+149,Madagascar,39,Leaking urine,25,Continent,8.55,9.9522,190,70,250
+150,Madagascar,42,Leaking urine,12,Continent,4.104,8.9262,190,70,270
+151,Madagascar,35,Leaking urine,13,Continent,4.446,11.3202,190,70,290
+152,Madagascar,47,Leaking urine,14,Continent,4.788,7.2162,190,70,310
+153,Madagascar,30,Leaking urine,13,Continent,4.446,13.0302,190,70,330
+154,Madagascar,21,Leaking urine,2,Continent,0.684,16.1082,190,70,350
+155,Madagascar,19,Leaking urine,4,Continent,1.368,16.7922,190,70,370
+156,Madagascar,35,Leaking urine,20,Continent,6.84,11.3202,190,70,390
+157,Madagascar,17,Leaking urine,0,Continent,0,17.4762,190,85,10
+158,Madagascar,25,Leaking urine,0,Continent,0,14.7402,190,85,30
+159,Madagascar,17,Leaking urine,3,Continent,1.026,17.4762,190,85,50
+160,Madagascar,48,Leaking urine,32,Continent,10.944,6.8742,190,85,70
+161,Madagascar,19,Leaking urine,3,Continent,1.026,16.7922,190,85,90
+162,Madagascar,33,Leaking urine,8,Continent,2.736,12.0042,190,85,110
+163,Madagascar,18,Leaking urine,0,Continent,0,17.1342,190,85,130
+164,Madagascar,28,Leaking urine,7,Continent,2.394,13.7142,190,85,150
+165,Madagascar,22,Leaking urine,0,Continent,0,15.7662,190,85,170
+166,Madagascar,15,Leaking urine,0,Continent,0,18.1602,190,85,190
+167,Madagascar,30,Leaking urine,4,Continent,1.368,13.0302,190,85,210
+168,Madagascar,41,Leaking urine,5,Continent,1.71,9.2682,190,85,230
+169,Madagascar,46,Leaking urine,8,Continent,2.736,7.5582,190,85,250
+170,Madagascar,48,Leaking urine,5,Continent,1.71,6.8742,190,85,270
+171,Madagascar,31,Leaking urine,12,Continent,4.104,12.6882,190,85,290
+172,Madagascar,18,Leaking urine,5,Continent,1.71,17.1342,190,85,310
+173,Madagascar,22,Leaking urine,1,Continent,0.342,15.7662,190,85,330
+174,Madagascar,26,Leaking urine,8,Continent,2.736,14.3982,190,85,350
+175,Madagascar,25,Leaking urine,8,Continent,2.736,14.7402,190,85,370
+176,Madagascar,21,Leaking urine and feces,7,Continent,3.507,23.5971,190,85,390
+177,Madagascar,57,Leaking urine,32,Continent,10.944,3.7962,190,100,10
+178,Madagascar,21,Leaking urine,4,Continent,1.368,16.1082,190,100,30
+179,Madagascar,36,Leaking urine,7,Continent,2.394,10.9782,190,100,50
+180,Madagascar,25,Leaking urine,13,Continent,4.446,14.7402,190,100,70
+181,Madagascar,28,Leaking urine,2,Continent,0.684,13.7142,190,100,90
+182,Madagascar,28,Leaking urine,3,Continent,1.026,13.7142,190,100,110
+183,Madagascar,36,Leaking urine,19,Continent,6.498,10.9782,190,100,130
+184,Madagascar,22,Leaking urine,8,Continent,2.736,15.7662,190,100,150
+185,Madagascar,45,Leaking urine,20,Continent,6.84,7.9002,190,100,170
+186,Madagascar,36,Leaking urine,8,Continent,2.736,10.9782,190,100,190
+187,Madagascar,52,Leaking urine,8,Continent,2.736,5.5062,190,100,210
+188,Madagascar,46,Leaking urine,30,Continent,10.26,7.5582,190,100,230
+189,Madagascar,50,Leaking urine,28,Continent,9.576,6.1902,190,100,250
+190,Madagascar,35,Leaking urine,6,Continent,2.052,11.3202,190,100,270
+191,Madagascar,39,Leaking urine,10,Continent,3.42,9.9522,190,100,290
+192,Madagascar,30,Leaking urine,11,Continent,3.762,13.0302,190,100,310
+193,Madagascar,26,Leaking urine,5,Continent,1.71,14.3982,190,100,330
+194,Madagascar,35,Leaking urine,15,Continent,5.13,11.3202,190,100,350
+195,Madagascar,36,Leaking urine,0,Continent,0,10.9782,190,100,370
+196,Madagascar,38,Leaking urine,4,Continent,1.368,10.2942,190,100,390
+197,Madagascar,19,Leaking urine,1,Continent,0.342,16.7922,190,115,10
+198,Madagascar,63,Leaking urine,41,Continent,14.022,1.7442,190,115,30
+199,Madagascar,22,Leaking urine,1,Continent,0.342,15.7662,190,115,50
+200,Madagascar,26,Leaking urine,1,Continent,0.342,14.3982,190,115,70
+202,Madagascar,32,Leaking urine,12,Continent,4.104,12.3462,190,115,90
+203,Madagascar,36,Leaking urine,16,Continent,5.472,10.9782,190,115,110
+204,Madagascar,20,Leaking urine,4,Continent,1.368,16.4502,190,115,130
+209,Madagascar,18,Leaking urine,2,Continent,0.684,17.1342,190,115,150
+210,Madagascar,21,Leaking urine,3,Partial Continence,1.026,9.5613,190,115,170
+212,Madagascar,22,Leaking urine,4,Continent,1.368,15.7662,190,115,190
+214,Madagascar,32,Leaking urine,2,Continent,0.684,12.3462,190,115,210
+222,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,115,230
+223,Madagascar,26,Leaking urine,9,Incontinent,3.078,0,190,115,250
+225,Madagascar,20,Leaking urine,2,Continent,0.684,16.4502,190,115,270
+234,Madagascar,18,Leaking urine,2,Continent,0.684,17.1342,190,115,290
+236,Madagascar,27,Leaking urine and feces,6,Partial Continence,3.006,14.8782,190,115,310
+238,Madagascar,32,Leaking urine,6,Partial Continence,2.052,7.3283,190,115,330
+239,Madagascar,24,Leaking urine,1,Partial Continence,0.342,8.9523,190,115,350
+240,Madagascar,52,Leaking urine,30,Continent,10.26,5.5062,190,115,370
+241,Madagascar,59,Leaking urine,30,Continent,10.26,3.1122,190,115,390
+247,Madagascar,40,Leaking urine,8,Partial Continence,2.736,5.7043,190,130,10
+249,Madagascar,25,Leaking urine,7,Continent,2.394,14.7402,190,130,30
+250,Madagascar,18,Leaking urine,0,Continent,0,17.1342,190,130,50
+252,Madagascar,24,Leaking urine,3,Continent,1.026,15.0822,190,130,70
+253,Madagascar,18,Leaking urine,2,Continent,0.684,17.1342,190,130,90
+255,Madagascar,28,Leaking urine,10,Continent,3.42,13.7142,190,130,110
+257,Madagascar,21,Leaking urine,0,Continent,0,16.1082,190,130,130
+259,Madagascar,22,Leaking urine and feces,7,Incontinent,3.507,0,190,130,150
+260,Madagascar,46,Leaking urine,14,Partial Continence,4.788,4.4863,190,130,170
+261,Madagascar,34,Leaking urine,14,Continent,4.788,11.6622,190,130,190
+263,Madagascar,39,Leaking urine,21,Continent,7.182,9.9522,190,130,210
+265,Madagascar,29,Leaking urine,0,Continent,0,13.3722,190,130,230
+267,Madagascar,26,Leaking urine,2,Continent,0.684,14.3982,190,130,250
+268,Madagascar,18,Leaking urine,2,Continent,0.684,17.1342,190,130,270
+269,Madagascar,24,Leaking urine,1,Partial Continence,0.342,8.9523,190,130,290
+270,Madagascar,24,Leaking urine,6,Continent,2.052,15.0822,190,130,310
+271,Madagascar,32,Leaking urine,12,Incontinent,4.104,0,190,130,330
+272,Madagascar,29,Leaking urine,7,Continent,2.394,13.3722,190,130,350
+274,Madagascar,27,Leaking urine,9,Continent,3.078,14.0562,190,130,370
+275,Madagascar,20,Leaking urine,6,Continent,2.052,16.4502,190,130,390
+277,Madagascar,28,Leaking urine,9,Continent,3.078,13.7142,190,145,10
+280,Malawi,41,Leaking urine,2,Continent,0.684,8.74494,190,145,30
+281,Mozambique,19,Leaking urine,0,Continent,0,14.9967,190,145,50
+282,Mozambique,18,Leaking urine,0,Partial Continence,0,9.10455,190,145,70
+283,Mozambique,20,Leaking urine,0,Continent,0,14.6547,190,145,90
+284,Malawi,25,Leaking feces,5,Continent,2.505,20.82657,190,145,110
+285,Malawi,22,Leaking urine,0,Continent,0,15.24294,190,145,130
+286,Malawi,34,Leaking urine,0,Continent,0,11.13894,190,145,150
+287,Malawi,22,Leaking urine,4,Continent,1.368,15.24294,190,145,170
+288,Malawi,32,Leaking urine,0,Continent,0,11.82294,190,145,190
+289,Malawi,25,Leaking urine,1,Continent,0.342,14.21694,190,145,210
+290,Malawi,34,Leaking urine,2,Continent,0.684,11.13894,190,145,230
+291,Malawi,30,Leaking urine,1,Continent,0.342,12.50694,190,145,250
+292,Madagascar,19,Leaking urine,0,Continent,0,16.7922,190,145,270
+293,Madagascar,45,Leaking urine,5,Continent,1.71,7.9002,190,145,290
+294,Madagascar,30,Leaking urine,9,Continent,3.078,13.0302,190,145,310
+295,Madagascar,16,Leaking urine,0,Continent,0,17.8182,190,145,330
+296,Madagascar,42,Leaking urine,0,Continent,0,8.9262,190,145,350
+297,Madagascar,22,Leaking urine,1,Continent,0.342,15.7662,190,145,370
+298,Madagascar,50,Leaking urine,5,Continent,1.71,6.1902,190,145,390
+299,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,160,10
+300,Madagascar,28,Leaking urine,0,Continent,0,13.7142,190,160,30
+301,Madagascar,17,Leaking urine,0,Continent,0,17.4762,190,160,50
+302,Madagascar,46,Leaking urine,7,Continent,2.394,7.5582,190,160,70
+303,Madagascar,22,Leaking urine,0,Incontinent,0,0,190,160,90
+304,Madagascar,27,Leaking urine,4,Continent,1.368,14.0562,190,160,110
+305,Madagascar,27,Leaking urine,0,Continent,0,14.0562,190,160,130
+306,Madagascar,45,Leaking urine,26,Continent,8.892,7.9002,190,160,150
+308,Madagascar,27,Leaking urine,1,Continent,0.342,14.0562,190,160,170
+309,Madagascar,38,Leaking urine,18,Continent,6.156,10.2942,190,160,190
+310,Madagascar,30,Leaking urine,7,Continent,2.394,13.0302,190,160,210
+311,Madagascar,31,Leaking urine,10,Continent,3.42,12.6882,190,160,230
+312,Madagascar,45,Leaking urine,16,Continent,5.472,7.9002,190,160,250
+313,Madagascar,16,Leaking feces,1,Incontinent,0.501,0,190,160,270
+314,Madagascar,18,Leaking urine,1,Continent,0.342,17.1342,190,160,290
+315,Madagascar,34,Leaking urine,18,Continent,6.156,11.6622,190,160,310
+316,Madagascar,17,Leaking urine,1,Continent,0.342,17.4762,190,160,330
+317,Madagascar,61,Leaking urine,26,Continent,8.892,2.4282,190,160,350
+318,Madagascar,56,Leaking urine,20,Continent,6.84,4.1382,190,160,370
+319,Malawi,42,Leaking urine,12,Continent,4.104,8.40294,190,160,390
+320,Malawi,20,Leaking urine,3,Continent,1.026,15.92694,190,175,10
+321,Malawi,40,Leaking urine,8,Continent,2.736,9.08694,190,175,30
+322,Malawi,50,Leaking urine,28,Continent,9.576,5.66694,190,175,50
+323,Malawi,33,Leaking urine,5,Continent,1.71,11.48094,190,175,70
+324,Malawi,22,Leaking urine,2,Continent,0.684,15.24294,190,175,90
+325,Malawi,27,Leaking urine,7,Continent,2.394,13.53294,190,175,110
+326,Malawi,51,Leaking urine,22,Continent,7.524,5.32494,190,175,130
+327,Malawi,32,Leaking urine,5,Continent,1.71,11.82294,190,175,150
+328,Malawi,24,Leaking urine,1,Continent,0.342,14.55894,190,175,170
+329,Malawi,32,Leaking urine,0,Continent,0,11.82294,190,175,190
+330,Malawi,24,Leaking urine,1,Continent,0.342,14.55894,190,175,210
+331,Malawi,35,Leaking urine,1,Continent,0.342,10.79694,190,175,230
+332,Malawi,24,Leaking urine,2,Continent,0.684,14.55894,190,175,250
+333,Malawi,28,Leaking urine,10,Continent,3.42,13.19094,190,175,270
+334,Malawi,16,Leaking urine,0,Continent,0,17.29494,190,175,290
+335,Mozambique,25,Leaking urine,2,Continent,0.684,12.9447,190,175,310
+336,Malawi,30,Leaking urine,5,Partial Continence,1.71,7.42371,190,175,330
+337,Madagascar,45,Leaking urine,9,Continent,3.078,7.9002,190,175,350
+338,Madagascar,24,Leaking urine,9,Continent,3.078,15.0822,190,175,370
+339,Madagascar,27,Leaking urine,1,Continent,0.342,14.0562,190,175,390
+340,Malawi,50,Leaking urine,4,Continent,1.368,5.66694,190,190,10
+341,Madagascar,15,Leaking urine,0,Continent,0,18.1602,190,190,30
+342,Malawi,36,Leaking urine,0,Continent,0,10.45494,190,190,50
+343,Malawi,37,Leaking urine,2,Continent,0.684,10.11294,190,190,70
+344,Malawi,36,Leaking urine,4,Continent,1.368,10.45494,190,190,90
+345,Malawi,19,Leaking urine,0,Continent,0,16.26894,190,190,110
+346,Malawi,23,Leaking urine,3,Continent,1.026,14.90094,190,190,130
+347,Malawi,35,Leaking urine,6,Continent,2.052,10.79694,190,190,150
+348,Malawi,43,Leaking urine,8,Continent,2.736,8.06094,190,190,170
+349,Malawi,21,Leaking urine,0,Continent,0,15.58494,190,190,190
+350,Malawi,58,Leaking urine,23,Continent,7.866,2.93094,190,190,210
+351,Malawi,16,Leaking urine,0,Continent,0,17.29494,190,190,230
+352,Malawi,17,Leaking urine,0,Continent,0,16.95294,190,190,250
+353,Malawi,60,Leaking urine,43,Continent,14.706,2.24694,190,190,270
+354,Malawi,21,Leaking urine,1,Continent,0.342,15.58494,190,190,290
+355,Malawi,22,Leaking urine,1,Continent,0.342,15.24294,190,190,310
+356,Malawi,25,Leaking urine,0,Continent,0,14.21694,190,190,330
+357,Malawi,35,Leaking urine,12,Continent,4.104,10.79694,190,190,350
+358,Malawi,20,Leaking urine,0,Continent,0,15.92694,190,190,370
+359,Malawi,34,Leaking urine,0,Continent,0,11.13894,190,190,390
+360,Malawi,20,Leaking urine,1,Continent,0.342,15.92694,190,205,10
+361,Malawi,25,Leaking urine,0,Continent,0,14.21694,190,205,30
+362,Malawi,17,Leaking urine,0,Continent,0,16.95294,190,205,50
+363,Malawi,18,Leaking urine,0,Continent,0,16.61094,190,205,70
+364,Malawi,17,Leaking urine,0,Continent,0,16.95294,190,205,90
+365,Malawi,30,Leaking urine,1,Continent,0.342,12.50694,190,205,110
+367,Mauritania,36,Leaking urine,2,Continent,0.684,10.32156,190,205,130
+368,Mauritania,39,Leaking urine,21,Continent,7.182,9.29556,190,205,150
+369,Malawi,19,Leaking urine,1,Continent,0.342,16.26894,190,205,170
+370,Malawi,28,Leaking urine,1,Continent,0.342,13.19094,190,205,190
+371,Mauritania,27,Leaking feces,6,Continent,3.006,19.62918,190,205,210
+372,Mauritania,32,Leaking urine,5,Continent,1.71,11.68956,190,205,230
+372,Mauritania,38,Leaking urine,7,Continent,2.394,9.63756,190,205,250
+373,Mauritania,50,Leaking urine,14,Continent,4.788,5.53356,190,205,270
+374,Mauritania,47,Leaking urine,10,Incontinent,3.42,0,190,205,290
+375,Malawi,17,Leaking urine,0,Continent,0,16.95294,190,205,310
+376,Malawi,23,Leaking urine and feces,6,Continent,3.006,21.82857,190,205,330
+377,Malawi,42,Leaking urine,0,Continent,0,8.40294,190,205,350
+378,Malawi,22,Leaking urine,5,Continent,1.71,15.24294,190,205,370
+379,Malawi,17,Leaking urine,0,Continent,0,16.95294,190,205,390
+380,Malawi,28,Leaking urine,0,Continent,0,13.19094,190,220,10
+381,Malawi,21,Leaking urine,1,Continent,0.342,15.58494,190,220,30
+382,Malawi,35,Leaking urine,5,Continent,1.71,10.79694,190,220,50
+383,Madagascar,50,Leaking urine,24,Continent,8.208,6.1902,190,220,70
+384,Malawi,20,Leaking urine,2,Continent,0.684,15.92694,190,220,90
+385,Malawi,31,Leaking urine,0,Continent,0,12.16494,190,220,110
+386,Malawi,30,Leaking urine,5,Continent,1.71,12.50694,190,220,130
+387,Malawi,17,Leaking urine,0,Continent,0,16.95294,190,220,150
+388,Malawi,24,Leaking urine,5,Continent,1.71,14.55894,190,220,170
+389,Malawi,18,Leaking urine,1,Continent,0.342,16.61094,190,220,190
+390,Malawi,24,Leaking urine,6,Continent,2.052,14.55894,190,220,210
+391,Malawi,27,Leaking urine,4,Continent,1.368,13.53294,190,220,230
+392,Madagascar,37,Leaking urine,8,Continent,2.736,10.6362,190,220,250
+398,Madagascar,55,Leaking urine,27,Continent,9.234,4.4802,190,220,270
+399,Malawi,29,Leaking urine,1,Continent,0.342,12.84894,190,220,290
+400,Malawi,20,Leaking urine,1,Continent,0.342,15.92694,190,220,310
+401,Malawi,28,Leaking urine,3,Continent,1.026,13.19094,190,220,330
+402,Malawi,56,Leaking urine,34,Continent,11.628,3.61494,190,220,350
+403,Malawi,20,Leaking urine,0,Continent,0,15.92694,190,220,370
+404,Malawi,43,Leaking urine,0,Continent,0,8.06094,190,220,390
+405,Malawi,40,Leaking feces,1,Continent,0.501,13.31157,190,235,10
+406,Malawi,36,Leaking feces,10,Continent,5.01,15.31557,190,235,30
+407,Madagascar,37,Leaking urine,0,Continent,0,10.6362,190,235,50
+408,Madagascar,54,Leaking urine,25,Continent,8.55,4.8222,190,235,70
+409,Madagascar,35,Leaking urine,20,Continent,6.84,11.3202,190,235,90
+410,Madagascar,45,Leaking urine,3,Continent,1.026,7.9002,190,235,110
+411,Madagascar,30,Leaking urine,10,Continent,3.42,13.0302,190,235,130
+412,Madagascar,47,Leaking urine,21,Continent,7.182,7.2162,190,235,150
+413,Madagascar,51,Leaking urine,27,Continent,9.234,5.8482,190,235,170
+414,Madagascar,35,Leaking urine,8,Continent,2.736,11.3202,190,235,190
+415,Malawi,20,Leaking urine,1,Continent,0.342,15.92694,190,235,210
+416,Malawi,37,Leaking urine,1,Continent,0.342,10.11294,190,235,230
+417,Malawi,28,Leaking urine,0,Continent,0,13.19094,190,235,250
+418,Malawi,41,Leaking urine,5,Continent,1.71,8.74494,190,235,270
+419,Malawi,20,Leaking urine,2,Continent,0.684,15.92694,190,235,290
+420,Malawi,20,Leaking urine,1,Continent,0.342,15.92694,190,235,310
+421,Malawi,24,Leaking urine,1,Continent,0.342,14.55894,190,235,330
+422,Malawi,33,Leaking urine,12,Continent,4.104,11.48094,190,235,350
+423,Mauritania,33,Leaking urine,3,Continent,1.026,11.34756,190,235,370
+424,Mauritania,22,Leaking urine,0,Continent,0,15.10956,190,235,390
+425,Mauritania,48,Leaking urine,4,Continent,1.368,6.21756,190,250,10
+426,Mauritania,18,Leaking urine,0,Continent,0,16.47756,190,250,30
+427,Mauritania,28,Leaking urine,1,Continent,0.342,13.05756,190,250,50
+429,Mauritania,34,Leaking urine,3,Continent,1.026,11.00556,190,250,70
+430,Mauritania,51,Leaking urine,11,Continent,3.762,5.19156,190,250,90
+431,Malawi,50,Leaking urine,21,Continent,7.182,5.66694,190,250,110
+433,Malawi,17,Leaking urine,0,Continent,0,16.95294,190,250,130
+434,Malawi,56,Leaking urine,40,Continent,13.68,3.61494,190,250,150
+435,Malawi,27,Leaking urine,0,Continent,0,13.53294,190,250,170
+436,Malawi,27,Leaking urine,6,Continent,2.052,13.53294,190,250,190
+437,Malawi,20,Leaking urine,0,Continent,0,15.92694,190,250,210
+438,Malawi,20,Leaking urine,1,Continent,0.342,15.92694,190,250,230
+440,Malawi,41,Leaking urine,14,Continent,4.788,8.74494,190,250,250
+441,Malawi,27,Leaking urine and feces,0,Continent,0,19.82457,190,250,270
+442,Malawi,31,Leaking urine,1,Continent,0.342,12.16494,190,250,290
+443,Malawi,55,Leaking urine,25,Continent,8.55,3.95694,190,250,310
+444,Malawi,38,Leaking urine,18,Continent,6.156,9.77094,190,250,330
+445,Malawi,24,Leaking urine,3,Continent,1.026,14.55894,190,250,350
+446,Malawi,38,Leaking urine,0,Continent,0,9.77094,190,250,370
+447,Malawi,25,Leaking urine,0,Continent,0,14.21694,190,250,390
+448,Malawi,59,Leaking urine,39,Continent,13.338,2.58894,190,265,10
+449,Malawi,25,Leaking urine,0,Continent,0,14.21694,190,265,30
+450,Malawi,19,Leaking urine,0,Continent,0,16.26894,190,265,50
+451,Madagascar,22,Leaking urine,4,Continent,1.368,15.7662,190,265,70
+452,Madagascar,28,Leaking urine,3,Partial Continence,1.026,8.1403,190,265,90
+453,Madagascar,16,Leaking urine,1,Continent,0.342,17.8182,190,265,110
+454,Madagascar,20,Leaking urine,0,Partial Continence,0,9.7643,190,265,130
+455,Madagascar,44,Leaking urine,4,Partial Continence,1.368,4.8923,190,265,150
+457,Madagascar,20,Leaking urine,7,Continent,2.394,16.4502,190,265,170
+458,Madagascar,32,Leaking urine,6,Continent,2.052,12.3462,190,265,190
+459,Madagascar,28,Leaking urine,6,Partial Continence,2.052,8.1403,190,265,210
+460,Madagascar,60,Leaking urine,30,Continent,10.26,2.7702,190,265,230
+461,Madagascar,22,Leaking urine,3,Partial Continence,1.026,9.3583,190,265,250
+462,Madagascar,30,Leaking urine,4,Continent,1.368,13.0302,190,265,270
+463,Madagascar,24,Leaking urine,6,Continent,2.052,15.0822,190,265,290
+464,Madagascar,18,Leaking urine,2,Continent,0.684,17.1342,190,265,310
+465,Madagascar,19,Leaking urine,0,Continent,0,16.7922,190,265,330
+466,Madagascar,40,Leaking urine,22,Continent,7.524,9.6102,190,265,350
+467,Madagascar,19,Leaking urine,2,Partial Continence,0.684,9.9673,190,265,370
+468,Madagascar,22,Leaking urine,1,Continent,0.342,15.7662,190,265,390
+469,Madagascar,60,Leaking urine,35,Continent,11.97,2.7702,190,280,10
+470,Madagascar,33,Leaking urine,1,Partial Continence,0.342,7.1253,190,280,30
+471,Madagascar,50,Leaking urine,16,Continent,5.472,6.1902,190,280,50
+472,Madagascar,33,Leaking urine,10,Continent,3.42,12.0042,190,280,70
+473,Madagascar,28,Leaking urine,6,Partial Continence,2.052,8.1403,190,280,90
+474,Madagascar,35,Leaking urine,13,Continent,4.446,11.3202,190,280,110
+475,Madagascar,27,Leaking urine,4,Partial Continence,1.368,8.3433,190,280,130
+476,Madagascar,19,Leaking urine,1,Continent,0.342,16.7922,190,280,150
+477,Madagascar,39,Leaking urine,20,Continent,6.84,9.9522,190,280,170
+478,Madagascar,25,Leaking urine and feces,3,Partial Continence,1.503,15.6022,190,280,190
+479,Madagascar,28,Leaking urine,11,Incontinent,3.762,0,190,280,210
+480,Madagascar,35,Leaking urine,9,Continent,3.078,11.3202,190,280,230
+481,Madagascar,30,Leaking urine,6,Continent,2.052,13.0302,190,280,250
+482,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,280,270
+483,Madagascar,22,Leaking urine,3,Continent,1.026,15.7662,190,280,290
+484,Madagascar,20,Leaking urine,1,Partial Continence,0.342,9.7643,190,280,310
+485,Madagascar,28,Leaking urine,9,Continent,3.078,13.7142,190,280,330
+486,Madagascar,47,Leaking urine,17,Continent,5.814,7.2162,190,280,350
+487,Madagascar,30,Leaking urine,1,Continent,0.342,13.0302,190,280,370
+488,Madagascar,35,Leaking urine,4,Continent,1.368,11.3202,190,280,390
+489,Madagascar,22,Leaking urine,8,Continent,2.736,15.7662,190,295,10
+490,Madagascar,37,Leaking urine,2,Partial Continence,0.684,6.3133,190,295,30
+491,Madagascar,32,Leaking urine,0,Partial Continence,0,7.3283,190,295,50
+492,Madagascar,30,Leaking urine,1,Continent,0.342,13.0302,190,295,70
+493,Madagascar,18,Leaking urine,0,Continent,0,17.1342,190,295,90
+494,Madagascar,36,Leaking urine,16,Continent,5.472,10.9782,190,295,110
+495,Madagascar,23,Leaking urine,1,Continent,0.342,15.4242,190,295,130
+496,Madagascar,31,Leaking urine,2,Continent,0.684,12.6882,190,295,150
+497,Madagascar,26,Leaking urine,10,Partial Continence,3.42,8.5463,190,295,170
+498,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,295,190
+499,Madagascar,39,Leaking urine,3,Continent,1.026,9.9522,190,295,210
+500,Madagascar,42,Leaking urine,12,Continent,4.104,8.9262,190,295,230
+501,Madagascar,36,Leaking urine,13,Continent,4.446,10.9782,190,295,250
+502,Madagascar,25,Leaking urine,1,Continent,0.342,14.7402,190,295,270
+503,Madagascar,39,Leaking urine,8,Partial Continence,2.736,5.9073,190,295,290
+505,Madagascar,41,Leaking urine,19,Continent,6.498,9.2682,190,295,310
+506,Madagascar,44,Leaking urine,21,Continent,7.182,8.2422,190,295,330
+507,Madagascar,43,Leaking urine,5,Continent,1.71,8.5842,190,295,350
+508,Madagascar,28,Leaking urine,4,Continent,1.368,13.7142,190,295,370
+509,Madagascar,25,Leaking urine,5,Continent,1.71,14.7402,190,295,390
+510,Madagascar,35,Leaking urine,8,Continent,2.736,11.3202,190,310,10
+511,Madagascar,18,Leaking urine,0,Continent,0,17.1342,190,310,30
+512,Madagascar,36,Leaking feces,4,Incontinent,2.004,0,190,310,50
+513,Madagascar,47,Leaking urine,11,Continent,3.762,7.2162,190,310,70
+514,Madagascar,24,Leaking urine,0,Continent,0,15.0822,190,310,90
+515,Madagascar,24,Leaking urine,1,Partial Continence,0.342,8.9523,190,310,110
+516,Madagascar,20,Leaking urine,2,Continent,0.684,16.4502,190,310,130
+517,Madagascar,28,Leaking urine,4,Continent,1.368,13.7142,190,310,150
+518,Madagascar,27,Leaking urine,10,Partial Continence,3.42,8.3433,190,310,170
+519,Madagascar,27,Leaking urine,8,Partial Continence,2.736,8.3433,190,310,190
+520,Madagascar,20,Leaking urine,1,Continent,0.342,16.4502,190,310,210
+521,Madagascar,43,Leaking urine,2,Continent,0.684,8.5842,190,310,230
+522,Madagascar,19,Leaking urine,2,Continent,0.684,16.7922,190,310,250
+523,Madagascar,25,Leaking urine,5,Continent,1.71,14.7402,190,310,270
+524,Madagascar,68,Leaking urine,32,Continent,10.944,0.0341999999999981,190,310,290
+525,Madagascar,37,Leaking urine,19,Continent,6.498,10.6362,190,310,310
+526,Madagascar,54,Leaking urine,20,Continent,6.84,4.8222,190,310,330
+527,Madagascar,18,Leaking urine,3,Continent,1.026,17.1342,190,310,350
+528,Madagascar,33,Leaking urine and feces,0,Continent,0,17.5851,190,310,370
+529,Madagascar,40,Leaking urine,20,Continent,6.84,9.6102,190,310,390
+530,Madagascar,38,Leaking urine,0,Continent,0,10.2942,190,325,10
+531,Madagascar,26,Leaking urine,0,Continent,0,14.3982,190,325,30
+532,Madagascar,25,Leaking urine,6,Continent,2.052,14.7402,190,325,50
+533,Madagascar,21,Leaking urine,3,Continent,1.026,16.1082,190,325,70
+534,Madagascar,30,Leaking urine,11,Continent,3.762,13.0302,190,325,90
+535,Madagascar,17,Leaking urine,2,Continent,0.684,17.4762,190,325,110
+537,Madagascar,24,Leaking urine,3,Continent,1.026,15.0822,190,325,130
+538,Madagascar,30,Leaking urine,9,Continent,3.078,13.0302,190,325,150
+539,Madagascar,20,Leaking urine,1,Continent,0.342,16.4502,190,325,170
+540,Madagascar,27,Leaking urine,7,Continent,2.394,14.0562,190,325,190
+542,Madagascar,35,Leaking urine,5,Continent,1.71,11.3202,190,325,210
+544,Madagascar,26,Leaking urine,9,Continent,3.078,14.3982,190,325,230
+545,Madagascar,24,Leaking urine,4,Continent,1.368,15.0822,190,325,250
+546,Madagascar,36,Leaking urine,18,Continent,6.156,10.9782,190,325,270
+547,Madagascar,43,Leaking urine,2,Continent,0.684,8.5842,190,325,290
+548,Madagascar,18,Leaking urine,3,Continent,1.026,17.1342,190,325,310
+549,Madagascar,31,Leaking urine,11,Continent,3.762,12.6882,190,325,330
+550,Madagascar,28,Leaking urine and feces,16,Continent,8.016,20.0901,190,325,350
+551,Madagascar,20,Leaking urine,1,Continent,0.342,16.4502,190,325,370
+552,Madagascar,60,Leaking urine,40,Continent,13.68,2.7702,190,325,390
+553,Madagascar,25,Leaking urine,4,Continent,1.368,14.7402,190,340,10
+554,Madagascar,36,Leaking urine,10,Continent,3.42,10.9782,190,340,30
+555,Madagascar,22,Leaking urine,3,Continent,1.026,15.7662,190,340,50
+556,Madagascar,20,Leaking urine,2,Continent,0.684,16.4502,190,340,70
+557,Madagascar,20,Leaking urine,5,Partial Continence,1.71,9.7643,190,340,90
+558,Madagascar,35,Leaking urine,14,Continent,4.788,11.3202,190,340,110
+559,Madagascar,24,Leaking urine,4,Continent,1.368,15.0822,190,340,130
+560,Madagascar,18,Leaking urine,1,Continent,0.342,17.1342,190,340,150
+561,Madagascar,43,Leaking urine,1,Partial Continence,0.342,5.0953,190,340,170
+562,Madagascar,22,Leaking urine,4,Incontinent,1.368,0,190,340,190
+563,Madagascar,27,Leaking urine and feces,8,Continent,4.008,20.5911,190,340,210
+564,Madagascar,18,Leaking urine,2,Continent,0.684,17.1342,190,340,230
+565,Madagascar,25,Leaking urine,3,Continent,1.026,14.7402,190,340,250
+566,Madagascar,34,Leaking urine,8,Continent,2.736,11.6622,190,340,270
+567,Madagascar,41,Leaking urine,16,Continent,5.472,9.2682,190,340,290
+568,Madagascar,29,Leaking urine and feces,8,Incontinent,4.008,0,190,340,310
+569,Madagascar,25,Leaking urine,3,Continent,1.026,14.7402,190,340,330
+570,Madagascar,18,Leaking urine,3,Continent,1.026,17.1342,190,340,350
+571,Madagascar,24,Leaking urine,4,Incontinent,1.368,0,190,340,370
+572,Madagascar,22,Leaking urine,7,Partial Continence,2.394,9.3583,190,340,390
+573,Madagascar,22,Leaking urine,3,Continent,1.026,15.7662,190,355,10
+574,Madagascar,19,Leaking urine,0,Continent,0,16.7922,190,355,30
+575,Madagascar,19,Leaking urine,3,Continent,1.026,16.7922,190,355,50
+576,Madagascar,28,Leaking urine,7,Partial Continence,2.394,8.1403,190,355,70
+577,Madagascar,31,Leaking urine,4,Continent,1.368,12.6882,190,355,90
+578,Madagascar,40,Leaking urine,4,Partial Continence,1.368,5.7043,190,355,110
+579,Madagascar,19,Leaking urine,4,Continent,1.368,16.7922,190,355,130
+580,Madagascar,25,Leaking urine,7,Partial Continence,2.394,8.7493,190,355,150
+581,Madagascar,20,Leaking urine,5,Continent,1.71,16.4502,190,355,170
+582,Madagascar,32,Leaking urine,3,Continent,1.026,12.3462,190,355,190
+583,Madagascar,25,Leaking urine,2,Continent,0.684,14.7402,190,355,210
+584,Madagascar,20,Leaking urine,2,Continent,0.684,16.4502,190,355,230
+585,Madagascar,24,Leaking urine,4,Partial Continence,1.368,8.9523,190,355,250
+586,Madagascar,18,Leaking urine,3,Continent,1.026,17.1342,190,355,270
+587,Madagascar,22,Leaking urine,4,Continent,1.368,15.7662,190,355,290
+588,Madagascar,24,Leaking urine,4,Continent,1.368,15.0822,190,355,310
+589,Madagascar,17,Leaking urine,3,Continent,1.026,17.4762,190,355,330
+590,Madagascar,22,Leaking urine,6,Continent,2.052,15.7662,190,355,350
+592,Madagascar,28,Leaking urine,5,Continent,1.71,13.7142,190,355,370
+593,Madagascar,21,Leaking urine,3,Continent,1.026,16.1082,190,355,390
+594,Madagascar,37,Leaking urine,1,Continent,0.342,10.6362,190,370,10
+595,Madagascar,30,Leaking urine,3,Continent,1.026,13.0302,190,370,30
+596,Madagascar,25,Leaking urine,3,Continent,1.026,14.7402,190,370,50
+597,Madagascar,25,Leaking feces,5,Continent,2.505,21.5931,190,370,70
+598,Madagascar,22,Leaking urine,2,Continent,0.684,15.7662,190,370,90
+599,Madagascar,25,Leaking urine,3,Continent,1.026,14.7402,190,370,110
+600,Madagascar,26,Leaking urine,2,Continent,0.684,14.3982,190,370,130
+601,Madagascar,24,Leaking urine,3,Continent,1.026,15.0822,190,370,150
+602,Madagascar,30,Leaking urine,8,Continent,2.736,13.0302,190,370,170
+603,Madagascar,36,Leaking urine,8,Incontinent,2.736,0,190,370,190
+605,Madagascar,47,Leaking urine,15,Continent,5.13,7.2162,190,370,210
+606,Madagascar,25,Leaking urine,5,Partial Continence,1.71,8.7493,190,370,230
+607,Madagascar,18,Leaking urine,1,Continent,0.342,17.1342,190,370,250
+608,Madagascar,36,Leaking urine,0,Partial Continence,0,6.5163,190,370,270
+609,Madagascar,16,Leaking urine,1,Partial Continence,0.342,10.5763,190,370,290
+610,Madagascar,36,Leaking urine,13,Partial Continence,4.446,6.5163,190,370,310
+611,Madagascar,35,Leaking urine,9,Continent,3.078,11.3202,190,370,330
+612,Madagascar,24,Leaking urine,6,Continent,2.052,15.0822,190,370,350
+613,Madagascar,30,Leaking urine,2,Partial Continence,0.684,7.7343,190,370,370
+614,Madagascar,30,Leaking urine,14,Continent,4.788,13.0302,190,370,390
+615,Madagascar,22,Leaking urine,2,Partial Continence,0.684,9.3583,190,385,10
+616,Madagascar,21,Leaking urine,6,Continent,2.052,16.1082,190,385,30
+617,Madagascar,30,Leaking urine,4,Continent,1.368,13.0302,190,385,50
+618,Madagascar,42,Leaking urine,11,Continent,3.762,8.9262,190,385,70
+619,Madagascar,32,Leaking urine,6,Partial Continence,2.052,7.3283,190,385,90
+620,Madagascar,25,Leaking urine,6,Continent,2.052,14.7402,190,385,110
+621,Madagascar,27,Leaking urine,9,Continent,3.078,14.0562,190,385,130
+622,Madagascar,30,Leaking urine,1,Partial Continence,0.342,7.7343,190,385,150
+623,Madagascar,31,Leaking urine,0,Partial Continence,0,7.5313,190,385,170
+624,Madagascar,34,Leaking urine,16,Continent,5.472,11.6622,190,385,190
+625,Madagascar,20,Leaking urine,4,Partial Continence,1.368,9.7643,190,385,210
+626,Madagascar,22,Leaking urine,2,Continent,0.684,15.7662,190,385,230
+627,Madagascar,44,Leaking urine,22,Continent,7.524,8.2422,190,385,250
+628,Madagascar,42,Leaking urine,7,Continent,2.394,8.9262,190,385,270
+629,Madagascar,18,Leaking urine,4,Continent,1.368,17.1342,190,385,290
+630,Madagascar,25,Leaking urine,6,Continent,2.052,14.7402,190,385,310
+631,Madagascar,42,Leaking urine,8,Continent,2.736,8.9262,190,385,330
+632,Madagascar,36,Leaking urine,9,Continent,3.078,10.9782,190,385,350
+633,Madagascar,45,Leaking urine and feces,10,Partial Continence,5.01,8.3622,190,385,370
+634,Madagascar,25,Leaking urine and feces,3,Continent,1.503,21.5931,190,385,390
+635,Madagascar,37,Leaking urine and feces,2,Continent,1.002,15.5811,190,400,10
+636,Madagascar,33,Leaking urine,6,Continent,2.052,12.0042,190,400,30
+637,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,400,50
+638,Madagascar,22,Leaking urine,2,Incontinent,0.684,0,190,400,70
+639,Madagascar,25,Leaking urine,5,Continent,1.71,14.7402,190,400,90
+641,Madagascar,32,Leaking urine,8,Continent,2.736,12.3462,190,400,110
+642,Madagascar,35,Leaking urine,2,Continent,0.684,11.3202,190,400,130
+643,Madagascar,32,Leaking urine,13,Continent,4.446,12.3462,190,400,150
+644,Madagascar,18,Leaking urine,0,Continent,0,17.1342,190,400,170
+645,Madagascar,28,Leaking urine,11,Continent,3.762,13.7142,190,400,190
+646,Madagascar,40,Leaking urine,8,Continent,2.736,9.6102,190,400,210
+647,Madagascar,47,Leaking urine,26,Continent,8.892,7.2162,190,400,230
+648,Madagascar,23,Leaking urine,7,Continent,2.394,15.4242,190,400,250
+649,Madagascar,24,Leaking urine,4,Continent,1.368,15.0822,190,400,270
+650,Madagascar,24,Leaking urine,3,Continent,1.026,15.0822,190,400,290
+651,Madagascar,19,Leaking urine,4,Continent,1.368,16.7922,190,400,310
+652,Madagascar,24,Leaking urine and feces,8,Partial Continence,4.008,15.9642,190,400,330
+653,Madagascar,39,Leaking urine,2,Continent,0.684,9.9522,190,400,350
+654,Madagascar,24,Leaking urine,3,Continent,1.026,15.0822,190,400,370
+655,Madagascar,28,Leaking urine,5,Continent,1.71,13.7142,190,400,390
+656,Madagascar,55,Leaking urine,10,Continent,3.42,4.4802,190,415,10
+657,Madagascar,28,Leaking urine,10,Continent,3.42,13.7142,190,415,30
+658,Madagascar,44,Leaking urine,8,Continent,2.736,8.2422,190,415,50
+659,Madagascar,25,Leaking urine,3,Continent,1.026,14.7402,190,415,70
+660,Madagascar,32,Leaking urine,5,Continent,1.71,12.3462,190,415,90
+661,Madagascar,38,Leaking urine,10,Continent,3.42,10.2942,190,415,110
+663,Madagascar,46,Leaking urine,3,Continent,1.026,7.5582,190,415,130
+664,Madagascar,44,Leaking urine,5,Continent,1.71,8.2422,190,415,150
+665,Madagascar,38,Leaking urine,1,Continent,0.342,10.2942,190,415,170
+666,Madagascar,30,Leaking urine,10,Continent,3.42,13.0302,190,415,190
+667,Madagascar,24,Leaking urine,5,Partial Continence,1.71,8.9523,190,415,210
+668,Madagascar,24,Leaking feces,5,Continent,2.505,22.0941,190,415,230
+669,Madagascar,52,Leaking urine,25,Continent,8.55,5.5062,190,415,250
+670,Madagascar,22,Leaking urine,0,Continent,0,15.7662,190,415,270
+671,Madagascar,35,Leaking urine,2,Continent,0.684,11.3202,190,415,290
+672,Madagascar,42,Leaking urine,22,Continent,7.524,8.9262,190,415,310
+674,Madagascar,24,Leaking urine,3,Partial Continence,1.026,8.9523,190,415,330
+675,Madagascar,33,Leaking urine,13,Continent,4.446,12.0042,190,415,350
+676,Madagascar,20,Leaking urine,3,Continent,1.026,16.4502,190,415,370
+677,Madagascar,35,Leaking urine,3,Continent,1.026,11.3202,190,415,390
+678,Madagascar,24,Leaking urine,3,Continent,1.026,15.0822,190,430,10
+679,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,430,30
+680,Madagascar,25,Leaking urine,7,Incontinent,2.394,0,190,430,50
+681,Madagascar,18,Leaking urine,1,Continent,0.342,17.1342,190,430,70
+682,Madagascar,26,Leaking urine,8,Continent,2.736,14.3982,190,430,90
+683,Madagascar,18,Leaking urine,0,Continent,0,17.1342,190,430,110
+685,Madagascar,21,Leaking urine,2,Continent,0.684,16.1082,190,430,130
+686,Madagascar,30,Leaking urine,12,Continent,4.104,13.0302,190,430,150
+687,Madagascar,43,Leaking urine,2,Partial Continence,0.684,5.0953,190,430,170
+688,Madagascar,28,Leaking urine,9,Partial Continence,3.078,8.1403,190,430,190
+689,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,430,210
+690,Madagascar,38,Leaking urine,9,Continent,3.078,10.2942,190,430,230
+691,Madagascar,30,Leaking urine,10,Continent,3.42,13.0302,190,430,250
+693,Madagascar,24,Leaking urine,6,Partial Continence,2.052,8.9523,190,430,270
+694,Madagascar,29,Leaking urine,8,Continent,2.736,13.3722,190,430,290
+695,Madagascar,22,Leaking urine,2,Continent,0.684,15.7662,190,430,310
+696,Madagascar,20,Leaking urine,2,Continent,0.684,16.4502,190,430,330
+697,Madagascar,32,Leaking urine,8,Continent,2.736,12.3462,190,430,350
+698,Madagascar,35,Leaking urine,16,Continent,5.472,11.3202,190,430,370
+699,Madagascar,33,Leaking urine,8,Partial Continence,2.736,7.1253,190,430,390
+700,Madagascar,40,Leaking urine,22,Continent,7.524,9.6102,190,445,10
+701,Madagascar,20,Leaking urine,3,Incontinent,1.026,0,190,445,30
+702,Madagascar,37,Leaking urine,1,Continent,0.342,10.6362,190,445,50
+703,Madagascar,31,Leaking urine,5,Continent,1.71,12.6882,190,445,70
+704,Madagascar,30,Leaking urine,7,Continent,2.394,13.0302,190,445,90
+705,Madagascar,23,Leaking urine,1,Incontinent,0.342,0,190,445,110
+706,Madagascar,20,Leaking urine,1,Continent,0.342,16.4502,190,445,130
+707,Malawi,40,Leaking urine and feces,15,Continent,7.515,13.31157,190,445,150
+708,Malawi,28,Leaking urine,0,Continent,0,13.19094,190,445,170
+709,Malawi,34,Leaking urine,13,Continent,4.446,11.13894,190,445,190
+710,Malawi,40,Leaking urine and feces,7,Continent,3.507,13.31157,190,445,210
+711,Malawi,19,Leaking urine,1,Continent,0.342,16.26894,190,445,230
+712,Malawi,46,Leaking urine,0,Continent,0,7.03494,190,445,250
+714,Malawi,50,Leaking urine,19,Continent,6.498,5.66694,190,445,270
+715,Malawi,25,Leaking urine,0,Continent,0,14.21694,190,445,290
+716,Madagascar,53,Leaking urine,21,Continent,7.182,5.1642,190,445,310
+717,Madagascar,35,Leaking urine,9,Continent,3.078,11.3202,190,445,330
+719,Madagascar,23,Leaking urine,0,Continent,0,15.4242,190,445,350
+721,Madagascar,18,Leaking urine,3,Partial Continence,1.026,10.1703,190,445,370
+722,Madagascar,32,Leaking urine,0,Continent,0,12.3462,190,445,390
+723,Madagascar,24,Leaking urine,1,Continent,0.342,15.0822,190,460,10
+724,Madagascar,15,Leaking urine,0,Continent,0,18.1602,190,460,30
+725,Madagascar,40,Leaking urine,1,Continent,0.342,9.6102,190,460,50
+727,Malawi,70,Leaking urine,40,Continent,13.68,0,190,460,70
+729,Malawi,50,Leaking urine,25,Continent,8.55,5.66694,190,460,90
+730,Malawi,41,Leaking urine,1,Continent,0.342,8.74494,190,460,110
+731,Malawi,50,Leaking urine,14,Continent,4.788,5.66694,190,460,130
+732,Malawi,20,Leaking urine,1,Continent,0.342,15.92694,190,460,150
+733,Malawi,19,Leaking urine,1,Continent,0.342,16.26894,190,460,170
+734,Malawi,29,Leaking urine,14,Continent,4.788,12.84894,190,460,190
+735,Malawi,60,Leaking urine,26,Continent,8.892,2.24694,190,460,210
+736,Malawi,30,Leaking urine,4,Continent,1.368,12.50694,190,460,230
+737,Malawi,47,Leaking urine,15,Continent,5.13,6.69294,190,460,250
+738,Malawi,50,Leaking urine,31,Continent,10.602,5.66694,190,460,270
+739,Malawi,50,Leaking urine,20,Continent,6.84,5.66694,190,460,290
+741,Malawi,19,Leaking urine,1,Continent,0.342,16.26894,190,460,310
+742,Malawi,40,Leaking urine,20,Continent,6.84,9.08694,190,460,330
+744,Malawi,61,Leaking urine,25,Continent,8.55,1.90494,190,460,350
+746,Malawi,51,Leaking urine,16,Partial Continence,5.472,3.16071,190,460,370
+747,Malawi,34,Leaking urine,12,Continent,4.104,11.13894,190,460,390
+749,Malawi,30,Leaking urine,4,Continent,1.368,12.50694,190,475,10
+750,Malawi,52,Leaking urine,17,Continent,5.814,4.98294,190,475,30
+752,Malawi,22,Leaking urine,4,Continent,1.368,15.24294,190,475,50
+753,Malawi,31,Leaking urine,0,Incontinent,0,0,190,475,70
+755,Madagascar,35,Leaking urine,17,Continent,5.814,11.3202,190,475,90
+756,Madagascar,25,Leaking urine,4,Continent,1.368,14.7402,190,475,110
+757,Madagascar,33,Leaking urine,10,Continent,3.42,12.0042,190,475,130
+758,Madagascar,26,Leaking urine,7,Continent,2.394,14.3982,190,475,150
+759,Madagascar,20,Leaking urine,0,Continent,0,16.4502,190,475,170
+760,Madagascar,21,Leaking urine,3,Continent,1.026,16.1082,190,475,190
+761,Madagascar,18,Leaking urine,3,Continent,1.026,17.1342,190,475,210
+762,Madagascar,17,Leaking urine,1,Continent,0.342,17.4762,190,475,230
+763,Madagascar,31,Leaking urine,3,Continent,1.026,12.6882,190,475,250
+764,Madagascar,26,Leaking urine,6,Continent,2.052,14.3982,190,475,270
+765,Madagascar,22,Leaking urine,5,Continent,1.71,15.7662,190,475,290
+766,Madagascar,25,Leaking urine,7,Continent,2.394,14.7402,190,475,310
+767,Madagascar,20,Leaking urine,2,Continent,0.684,16.4502,190,475,330
+768,Madagascar,18,Leaking urine,1,Continent,0.342,17.1342,190,475,350

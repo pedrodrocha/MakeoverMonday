@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation Fistula</title>
+    <link rel='stylesheet' type='text/css' href="style.css"/>
+</head>
+<body>
+
+    
+    <div class='header' id ='header'>
+
+        <img id='logo' class='logo' src='logo.png'> 
+        <p id='header-citation' class='header-citation'>"Obstetric fistula, a childbirth injury caused by prolonged, obstructed labor without
+            prompt medical attention, is silently robbing millions of women and girls of their health,
+            hope and dignity." <cite> Dr. Natalia Kanem, Executive Director, UNFPA</cite></p>
+    </div>
+
+
+    <div class='intro' id='intro'>
+        <p>Obstetric fistula occurs when women endure prolonged, obstructed labor without access to emergency interventions such as cesarean section. These women end up with a seizure causing the leaking of urine or feces through the vagina</p>
+        <p>It only happens in places where systems fail women and girls. Its existence is an indicator of extreme and systemic gender inequality. Globally, there are a vast number of women <strong>- approximately one million - </strong> awaiting treatment for fistula, and heartbreakingly, the pace of obstetric fistula continues to outrun the collective ability to meet the demand for treatment.</p>
+
+        <p id='call2action'>But we can act and change this story.</p>            
+            
+
+    </div>
+
+    <div id='plot1' class='plot1'>
+        <div id='wrapper1' class='wrapper'></div>
+        <p id='plot-text1' class='plot-text'>Data from the Operation Fistula Pilot Program implemented in 5 countries between 2012 and 2015 shows that <span id='span-plot-text1'>early treatement can significantly reduce the number of healthy years of life lost</span> by each patient because of having fistula.  </p>
+
+        </div>
+
+    </div>
+
+    <div id= 'plot2' class='plot2'>
+        <p id='plot-text2'>In the plot bellow each dot represents one woman. <span id='dark-color'> Darker colors </span> represents healthy years of life lost and the <span id='span2'>size</span> represents the number of years suffering from Fistula before treatement. </p>
+        <p id='plot-text3'>Tip: you can hover over the circles to explore more features about each woman </p>
+        <div id='wrapper2' class='wrapper'>
+            <div id="tooltip" class='tooltip'> 
+                <div class="tooltip-1" id='tooltip-1'>
+                    This woman is from  <span class='country' id="country"></span> and was <span class='age' id='age'></span> years old when the treatment started
+                </div>
+                <div class="tooltip-2" id='tooltip-2'>
+                    She has suffered from Fistula for <span id='years' class='years'></span> year/s and lost  <span id='lost' class='lost'></span> year/s of healthy life
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id='call2action2' class='call2action2'>
+        <p>Since the Pilot, Operation Fistula has learned a huge amount about what needs to be done to deliver a fistula free world. In October 2020, they launched a new and improved funding program</strong> to deliver impact for fistula surgeons and patients.</p>
+        <p id='call-call'>You can make the difference</p>
+
+        <a class='button-a' href='https://opfistula.giv.sh/39cb' target="_blank"><button id='button' class='button'>Donate Now !</button></a>
+    </div>
+
+    <script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
