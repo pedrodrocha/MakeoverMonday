@@ -68,7 +68,7 @@ prep %>%
   labs(
     title = 'The paintings of Bob Ross',
     subtitle = '% containing each element',
-    caption = "#MakeoverMonday 2020, 50 @pedro_drocha | Dados: FiveThirtyEight"
+    caption = "#MakeoverMonday 2020, 50 | @pedro_drocha | Dados: FiveThirtyEight"
   ) +
   theme(
     panel.grid.major.y = element_blank(),
