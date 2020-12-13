@@ -1,6 +1,6 @@
 # MakeoverMonday
 
-My contributions to [#MakeoverMonday](https://www.makeovermonday.co.uk/), a weekly social data project aimed at working with a given data set and create better, more effective visualizations and help us make information more accessible. The project was created in 2016 by [Eva Murray](https://twitter.com/TriMyData) and [Andy Kriebel](https://twitter.com/VizWizBI).
+My contributions to [#MakeoverMonday](https://www.makeovermonday.co.uk/), a weekly social data project created in 2016 by [Eva Murray](https://twitter.com/TriMyData) and [Andy Kriebel](https://twitter.com/VizWizBI) aimed at working with a given data set and creating better, more effective visualizations.
 
 
 ## 2020, Week 50: A Statistical Analysis of the Work of Bob Ross
