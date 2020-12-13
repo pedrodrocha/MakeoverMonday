@@ -4,7 +4,7 @@ My contributions to [#MakeoverMonday](https://www.makeovermonday.co.uk/), a week
 
 
 ## 2020, Week 50: A Statistical Analysis of the Work of Bob Ross
-![Gráfico](2020-12-14_BobRoss/plot1.png)
+![Gráfico](2020-12-14_BobRoss/plot_1.png)
 
 ## 2020, Week 49: Divergent Opinions on Transatlantic Alliance 
 ![Gráfico](2020-12-07_TransatlanticAlliance/plotMMVizReview2_1.png)  
