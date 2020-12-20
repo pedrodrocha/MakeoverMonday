@@ -1,0 +1,343 @@
+---  
+pagetitle: "Arsenal's worst ever Premier League Start ?"
+output: html_document
+---
+
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(readxl)
+library(reactable)
+library(htmltools)
+dat <- read_excel('data/data.xlsx')
+
+```
+
+```{r, echo = FALSE}
+bar_chart <- function(label, width = "100%", height = "16px", fill = "#00bfc4", background = NULL) {
+  bar <- div(style = list(background = fill, width = width, height = height))
+  chart <- div(style = list(flexGrow = 1, marginLeft = "8px", background = background), bar)
+  div(style = list(display = "flex", alignItems = "center"), label, chart)
+}
+```
+
+
+```{r, echo = FALSE}
+dat %>% 
+  select(!starts_with('final')) %>% 
+  mutate(
+    `% Won` = round(Won/Played * 100),
+    `% Drawn` = round(Drawn/Played * 100),
+    `% Lost` = round(Lost/Played * 100),
+    `GF per Match` = round(`Goals For`/Played,1),
+    `GA per Match` = round(`Goals Against`/Played,1)
+  ) %>% 
+  select(-c(Won,Drawn, Lost, `Goals For`, `Goals Against`)) %>% 
+  relocate(Position, .after = Season) %>% 
+  relocate(starts_with('%'), .after = Played) %>% 
+  relocate(contains('per'), .after = `% Lost`) -> prep
+```
+
+
+
+```{r, include=FALSE}
+make_color_pal <- function(colors, bias = 1) {
+  get_color <- colorRamp(colors, bias = bias)
+  function(x) rgb(get_color(x), maxColorValue = 255)
+}
+# make_sequencial_color_pal <- function(colors) {
+#   function(x) rgb(colorRamp(colors)(x), maxColorValue = 255)
+# }
+
+position_pallete <- make_color_pal(
+  c('#113476','#ce0041'), bias = 0.4
+)
+
+ars_pallete <- make_color_pal(c('#fefefe','#113476'))
+
+
+perc_normalize <- c(prep$`% Won`,prep$`% Drawn`,prep$`% Lost`)
+```
+
+
+```{r, include = FALSE}
+bar_chart_pos_neg <- function(label, value, max_value = 1, height = "16px",
+                              pos_fill = "#2384C0", neg_fill = "#e34a27") {
+  neg_chart <- div(style = list(flex = "1 1 0"))
+  pos_chart <- div(style = list(flex = "1 1 0"))
+  width <- paste0(abs(value / max_value) * 100, "%")
+
+  if (value < 0) {
+    bar <- div(style = list(marginLeft = "8px", background = neg_fill, width = width, height = height))
+    chart <- div(style = list(display = "flex", alignItems = "center", justifyContent = "flex-end"), label, bar)
+    neg_chart <- tagAppendChild(neg_chart, chart)
+  } else {
+    bar <- div(style = list(marginRight = "8px", background = pos_fill, width = width, height = height))
+    chart <- div(style = list(display = "flex", alignItems = "center"), bar, label)
+    pos_chart <- tagAppendChild(pos_chart, chart)
+  }
+
+  div(style = list(display = "flex"), neg_chart, pos_chart)
+}
+```
+
+
+
+```{r echo=FALSE}
+
+div(class = "title",
+  p(
+    span("Arsenal",id = "title-span"),
+    "'s worst ever Premier League Start ? ",
+    id = "main-title"
+  ),
+  p(
+    id = 'main-subtitle',
+    "After",  strong("13"), "games and only", strong("4"), "wins the Gunners are in", strong("15th"), "and crashing into their worst start ever in the League"
+  )
+)
+
+prep %>% 
+  relocate(Position, .after = Season) %>% 
+  relocate(starts_with('%'), .after = Played) %>% 
+  reactable(
+    defaultSorted = "Position",
+    defaultSortOrder = "desc",
+    defaultPageSize = nrow(dat),
+    highlight = TRUE, 
+    searchable = FALSE,
+    striped = TRUE,
+    showSortIcon = FALSE,
+    defaultColDef = colDef(
+      minWidth = 80,
+      align = 'center',
+      headerClass = 'tab-head'
+      ),
+    columns = list(
+      Position = colDef(
+        align = 'center',
+        cell = function(value) {
+          normalized <- (value - min(prep$Position)) / (max(prep$Position) - min(prep$Position))
+          color <- position_pallete(normalized)
+          div(class = "position-rows", style = list(background = color, color = '#f0f0f0'), value)
+        }
+      ),
+       `% Won` = colDef(
+          style = function(value) {
+                normalized <- (value - min(perc_normalize)) / (max(perc_normalize) - min(perc_normalize))
+                color <- ars_pallete(normalized)
+                list(background = color)
+          },
+          cell = JS("
+                
+              function(cellInfo) {
+              
+              
+              
+              if (cellInfo.value > 30){
+                cellInfo.styles['color'] = '#f0f0f0'
+              
+              } else {
+                  cellInfo.styles['color'] = '#444444'
+              }
+            // Format as percentage
+            let value = cellInfo.value + '%'
+            
+            // Show % on first row only
+            if (cellInfo.viewIndex > 0) {
+              value = value.replace('%', ' ')
+            }
+            return (
+                '<span class=\"perc-won-value\">' + value + '</span>'
+            )
+          }
+        
+        "),
+        html = TRUE
+        ),
+       `% Drawn` = colDef(
+          style = function(value) {
+                normalized <- (value - min(perc_normalize)) / (max(perc_normalize) - min(perc_normalize))
+                color <- ars_pallete(normalized)
+                list(background = color)
+          },cell = JS("
+          
+            function(cellInfo) {
+            
+              if (cellInfo.value > 30){
+                cellInfo.styles['color'] = '#f0f0f0'
+              
+              } else {
+                  cellInfo.styles['color'] = '#444444'
+              }
+              
+              // Format as percentage
+              let value = cellInfo.value + '%'
+      
+              // Show % on first row only
+              if (cellInfo.viewIndex > 0) {
+                value = value.replace('%', ' ')
+              }
+              return (
+                  '<span class=\"perc-drawn-value\">' + value + '</span>'
+              )
+          }
+        
+        "),
+        html = TRUE
+        ),
+       `% Lost` = colDef(
+          style = function(value) {
+                normalized <- (value - min(perc_normalize)) / (max(perc_normalize) - min(perc_normalize))
+                color <- ars_pallete(normalized)
+                list(background = color)
+          },cell = JS("function(cellInfo) {
+
+              if (cellInfo.value > 30){
+                cellInfo.styles['color'] = '#f0f0f0'
+              
+              } else {
+                  cellInfo.styles['color'] = '#444444'
+              }
+          
+          // Format as percentage
+          let value = cellInfo.value + '%'
+          
+  
+          // Show % on first row only
+          if (cellInfo.viewIndex > 0) {
+            value = value.replace('%', ' ')
+          }
+          
+          return (
+              '<span class=\"perc-lost-value\">' + value + '</span>'
+          )
+        }"),
+        html = TRUE
+      ),
+      
+      Points = colDef(
+        cell = function(value) {
+          width <- paste0(value / max(prep$Points)  * 100, "%")
+          bar_chart(value, width = width, fill = "#113476")
+        },
+        class = 'points-cell'
+      ),
+      `Goal Difference` = colDef(
+        cell = JS("function(cellInfo) {
+
+              let value = cellInfo.value
+              
+              if(value < 0) {
+                cellInfo.styles['color'] = '#ce0041'
+                cellInfo.styles['font-weight'] = '900'
+              } else {
+                cellInfo.styles['color'] = '#444444'
+              }
+          return (
+              '<span class=\"goal-diff-value\">' + value + '</span>'
+          )
+        }"),
+        html = TRUE
+      )
+    )
+  )
+
+
+p(
+'#MakeoverMonday 2020, 51 | @pedro_drocha | Source:', a("11v11.com", href= "https://www.11v11.com/", id = 'source-link'), id = "footer")
+
+```
+
+
+
+```{css, echo = FALSE}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+body {
+  margin-top: 5rem;
+  color: #444444;
+  background-color: #f0f0f020;
+}
+
+.tab-head{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.position-rows {
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+.rt-tbody {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.points-cell {
+  padding-left: 30px
+}
+
+.tab-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-bottom-color: #f0f0f0;
+  padding: 8px !important;
+  background-color: #ce0041;
+  color: #f0f0f0;
+}
+
+.tab-head:hover,
+.tab-head[aria-sort="ascending"],
+.tab-head[aria-sort="descending"] {
+  background-color: #a40034
+}
+
+.tab-head[aria-sort="ascending"] {
+  box-shadow: inset 0 10px 0 -6px #fae5ec !important;
+}
+
+.tab-head[aria-sort="descending"] {
+  box-shadow: inset 0 -10px 0 -6px #fae5ec !important;
+}
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #44444490;
+    size: 9px;
+}
+
+
+.title{
+  font-family: 'Arsenal', sans-serif;
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+#title-span{
+  color: #ce0041;
+  font-size: 6rem;
+  padding: 0;
+  margin: 0;
+}
+
+#main-subtitle {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-top: -1.5rem;
+}
+
+```
+
+

@@ -73,6 +73,7 @@ prep %>%
   theme(
     panel.grid.major.y = element_blank(),
     panel.grid.major.x = element_line(),
+    panel.grid.minor = element_blank(),
     plot.background = element_rect(
       fill = '#F0f1f0',
       color = '#f0f1f0'
