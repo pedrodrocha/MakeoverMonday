@@ -46,9 +46,7 @@ make_color_pal <- function(colors, bias = 1) {
   get_color <- colorRamp(colors, bias = bias)
   function(x) rgb(get_color(x), maxColorValue = 255)
 }
-# make_sequencial_color_pal <- function(colors) {
-#   function(x) rgb(colorRamp(colors)(x), maxColorValue = 255)
-# }
+
 
 position_pallete <- make_color_pal(
   c('#113476','#ce0041'), bias = 0.4
@@ -60,27 +58,6 @@ ars_pallete <- make_color_pal(c('#fefefe','#113476'))
 perc_normalize <- c(prep$`% Won`,prep$`% Drawn`,prep$`% Lost`)
 ```
 
-
-```{r, include = FALSE}
-bar_chart_pos_neg <- function(label, value, max_value = 1, height = "16px",
-                              pos_fill = "#2384C0", neg_fill = "#e34a27") {
-  neg_chart <- div(style = list(flex = "1 1 0"))
-  pos_chart <- div(style = list(flex = "1 1 0"))
-  width <- paste0(abs(value / max_value) * 100, "%")
-
-  if (value < 0) {
-    bar <- div(style = list(marginLeft = "8px", background = neg_fill, width = width, height = height))
-    chart <- div(style = list(display = "flex", alignItems = "center", justifyContent = "flex-end"), label, bar)
-    neg_chart <- tagAppendChild(neg_chart, chart)
-  } else {
-    bar <- div(style = list(marginRight = "8px", background = pos_fill, width = width, height = height))
-    chart <- div(style = list(display = "flex", alignItems = "center"), bar, label)
-    pos_chart <- tagAppendChild(pos_chart, chart)
-  }
-
-  div(style = list(display = "flex"), neg_chart, pos_chart)
-}
-```
 
 
 
